@@ -1,0 +1,33 @@
+{
+  "name": "myskill-qa",
+  "version": "1.0.0",
+  "description": "mocha chai petStore ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test get": "mocha test/api/getExample.js",
+    "test post": "mocha test/api/postExample.js"
+  },
+  "mocha": {
+    "timeout": "10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajiinomotoo/myskill-qa.git"
+  },
+  "author": "aji nugroho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajiinomotoo/myskill-qa/issues"
+  },
+  "homepage": "https://github.com/ajiinomotoo/myskill-qa#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "jsonschema": "^1.4.1",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.8"
+  }
+}
